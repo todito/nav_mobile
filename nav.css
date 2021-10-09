@@ -15,7 +15,7 @@
   right: 50%;
   width: 30px;
   height: 30px;
-  /* border: solid 1px rgba(255, 0, 0, 0); */
+  /* border: solid 1px rgb(255, 0, 0); */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -36,9 +36,11 @@
     transform: translateX(-30px);
 }
 #barra1.aperto{
-    transform: rotateZ(45deg) translateY(10px) translateX(8px);
+    transform: rotateZ(45deg) translateY(13px) translateX(5px);
+    width: 40px;
 }
 #barra3.aperto{
-    transform: rotateZ(-45deg) translateY(-10px) translateX(8px);
+  width: 40px;
+    transform: rotateZ(-45deg) translateY(-13px) translateX(6px);
 }
 /*-------------FINE   nav__mobile--------------------*/
